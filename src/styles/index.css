@@ -1,3 +1,47 @@
-/* 
-    General Styles
-*/
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html, body {
+    width: 100%;
+    height: 100%;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.add {
+    position: absolute;
+    top: 10px;
+}
+
+.contact {
+    width: 500px;
+    margin-top: 100px;
+}
+
+.add-contact {
+    width: 500px;
+    margin-top: 100px;
+}
+
+.list-contact {
+    width: 900px; 
+    margin-top: 70px;
+    
+    display: flex;
+    flex-direction: row;
+}
+
+.list-contact img {
+    margin-right: 100px;
+}
+
+footer {
+    position: absolute;
+    bottom: 0;
+}
